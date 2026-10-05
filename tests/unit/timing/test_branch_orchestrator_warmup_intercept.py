@@ -43,6 +43,7 @@ def _credit(phase: CreditPhase) -> MagicMock:
         turn_index=0,
         agent_depth=0,
         effective_root_correlation_id="root",
+        finite_replay=False,
     )
 
 
